@@ -1,6 +1,6 @@
 import re
 
-with open(r"/Users/linhnguyen/Documents/personal projects/adversarialHangman/google-10000-english-usa-no-swears.txt","r+") as f:
+with open(r"google-10000-english-usa-no-swears.txt","r+") as f:
     allWords = f.read().split('\n')
 
 wordLength = 0
